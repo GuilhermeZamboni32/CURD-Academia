@@ -45,6 +45,12 @@ h1 {
   gap: 1rem;
 }
 
+.form-cadastro-produto{
+  width: 100%;
+  display: flex;
+  gap: 20px ;
+}
+
 h2 {
   color: var(--azul-escuro);
   text-align: center;
@@ -55,6 +61,7 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+  margin-top: 5px;
 }
 
 label {
@@ -77,12 +84,18 @@ select:focus {
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
 }
 
+.div-botoes{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
 button {
   padding: 10px 16px;
   border: none;
   border-radius: 8px;
   background-color: var(--azul);
-  color: white;
+  color: var(--branco);
   font-weight: 500;
   cursor: pointer;
   transition: background 0.3s, transform 0.1s;
@@ -90,7 +103,7 @@ button {
 
 button:hover {
   background-color: var(--azul-escuro);
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 button:active {
@@ -162,4 +175,47 @@ li {
 }
 .button-excluir:hover{
   background-color: #a1232f;
+}
+
+.icone-alerta{
+  margin-left: 8px;
+  height: 16px;
+}
+
+.div-info-produto-cadastro{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.div-botoes-cadastro{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.div-lista{
+  width: 100%;
+  max-width: 800px; 
+}
+
+.info-lista{
+  margin-bottom: 10px;
+}
+
+.infos-da-lista{
+  font-weight: bold;
+}
+
+.tipos{
+  display: flex;
+  gap: 10px;
+}
+
+.div-botoes-registro{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
 }
